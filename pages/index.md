@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: Welcome to Vault Help
 permalink: /
 section: home
 intro_paragraph: >
