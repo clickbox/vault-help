@@ -98,13 +98,13 @@ header > nav {
 // our main content wrapper, the width scales with font size
 main {
   width: 100%;
-  max-width: 52rem;
+  max-width: 64%;
   margin-right: auto;
   margin-left: auto;
   grid-column: main;
   display: grid;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
   }
