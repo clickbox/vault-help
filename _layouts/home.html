@@ -6,23 +6,46 @@ layout: default
 
 <div class="input-group">
   <input type="text" class="form-control" placeholder="What do you need help with?" aria-describedby="basic-addon2">
-  <span class="input-group-addon" id="basic-addon2">@example.com</span>
-</div>
-
-  {% include page-intro.html %}
+  <span class="input-group-addon" id="basic-addon2">search-icon</span>
+</div><br/>
 
   {{ content }}
 
-  <section>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
 
-    <h3>Recent posts from the blog</h3>
+  <div class="input-group">
+    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+    <div class="input-group-append">
+      <span class="input-group-text">$</span>
+      <span class="input-group-text">0.00</span>
+    </div>
+  </div>
+  
+  <section id="ctas">
+    <div>
+      <h3>Configuring</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
 
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+    <div>
+      <h3>Using</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
+
+    <div>
+      <h3>Releases</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    </div>
 
   </section>
