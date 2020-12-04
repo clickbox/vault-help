@@ -26,9 +26,7 @@ body > * {
 // it is also a grid for the logo and nav
 header {
   grid-column: full;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
   background-color: $grey-bg-color;
   padding: 2rem;
   @media screen and (min-width: $screen-sm-min) {
