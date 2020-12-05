@@ -94,6 +94,7 @@ a:active {
 }
 
 header > h1 {
+  font-size: 23px;
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   @media screen and (min-width: $screen-sm-min) {
