@@ -45,6 +45,7 @@ header > h1 {
   justify-content: space-between;
   align-items: center;
   color: #ffffff;
+  margin-left: 20px;
   @media screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
   }
@@ -214,4 +215,8 @@ footer {
 
 .home-search {
   margin-bottom: 50px;
+}
+
+nav .dropdown {
+  margin-right: 30px;
 }
