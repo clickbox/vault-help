@@ -1,0 +1,11 @@
+<div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Application Switcher
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        {% for family in site.data.families %}
+            <a class="dropdown-item" href="{{ family.url }}">{{ family.name }}</a>
+        {% endfor %}
+    </div>
+</div>

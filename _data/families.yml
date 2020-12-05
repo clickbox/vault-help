@@ -1,22 +1,33 @@
 - name: Clinical Operations
   tag: app-family-clinops
+  url: /clinops
 - name: Quality
   tag: app-family-quality
+  url: /quality
 - name: QualityOne
   tag: app-family-qualityone
+  url: qualityone
 - name: Regulatory
   tag: app-family-regulatory
+  url: regulatory
 - name: RegulatoryOne
   tag: app-family-regulatoryone
+  url: regulatoryone
 - name: SiteVault
   tag: app-family-sitevault
+  url: sitevault
 - name: Platform
   tag: app-family-platform
+  url: platform
 - name: MedComms
   tag: app-family-medcomms
+  url: /medcomms
 - name: PromoMats
   tag: app-family-promomats
+  url: /promomats
 - name: Veeva Claims
   tag: app-family-claims
+  url: /veeva-claims
 - name: EDC
   tag: app-family-edc
+  url: /edc
