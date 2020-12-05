@@ -6,19 +6,19 @@
   url: /quality
 - name: QualityOne
   tag: app-family-qualityone
-  url: qualityone
+  url: /qualityone
 - name: Regulatory
   tag: app-family-regulatory
-  url: regulatory
+  url: /regulatory
 - name: RegulatoryOne
   tag: app-family-regulatoryone
-  url: regulatoryone
+  url: /regulatoryone
 - name: SiteVault
   tag: app-family-sitevault
-  url: sitevault
+  url: /sitevault
 - name: Platform
   tag: app-family-platform
-  url: platform
+  url: /platform
 - name: MedComms
   tag: app-family-medcomms
   url: /medcomms
