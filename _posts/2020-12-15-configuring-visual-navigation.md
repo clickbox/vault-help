@@ -29,7 +29,6 @@ This is how visual navigation works, and for some reason this description requir
     <td>cell1 data</td>
     <td>cell2 data</td>
   </tr>
-
 <tr>
     <td>cell1 data</td>
     <td>cell2 data</td>
@@ -39,16 +38,16 @@ This is how visual navigation works, and for some reason this description requir
 
 ## Configuration Overview
 
-* Configure the *Visual Heirarchy* object fields and page layout.
-* Configure the *Visual Heirarchy* object lifecycle user actions and state types.
+* Configure the *Visual Hierarchy* object fields and page layout.
+* Configure the *Visual Hierarchy* object lifecycle user actions and state types.
 
-## Visual Heirarchy Object Configuration
+## Visual Hierarchy Object Configuration
 
-Configure the *Visual Heirarchy* object fields:
+Configure the *Visual Hierarchy* object fields:
 
 1. Add the x to the x.
 2. Add the y to the y.
 
-## Visual Heirarchy Object Lifecycle
+## Visual Hierarchy Object Lifecycle
 
-Add the **Do Visual Stuff** user action to the appropriate states in the *Visual Heirarchy* object lifecycle.
+Add the **Do Visual Stuff** user action to the appropriate states in the *Visual Hierarchy* object lifecycle.
