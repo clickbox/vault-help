@@ -1,6 +1,6 @@
 ---
 layout: home
 title: Administrators
-permalink: /admin
+permalink: /administrators 
 section: Admin
 ---
