@@ -43,6 +43,11 @@ sass:
 compress_html:
   clippings: all
 
+collections:
+  platform:
+    output: true
+    permalink: /_platform/user/:name
+
 # set some common post defaults
 defaults:
   -
