@@ -1,0 +1,17 @@
+---
+layout: page
+section: platform
+permalink: /platform/admin/
+---
+
+<h1>Platform Admin Resources</h1>
+<ul>
+    {% assign platform_admin_article = site.platform | where: "audience", "admin" %}
+    {% for article in platform_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

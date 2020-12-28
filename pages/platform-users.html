@@ -1,0 +1,17 @@
+---
+layout: page
+section: platform
+permalink: /platform/users/
+---
+
+<h1>Platform User Resources</h1>
+<ul>
+    {% assign platform_user_article = site.platform | where: "audience", "user" %}
+    {% for article in platform_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

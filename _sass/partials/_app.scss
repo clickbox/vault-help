@@ -262,3 +262,58 @@ footer .categories {
 #app-family-cards {
   margin-top: 50px;
 }
+
+.categories-platform, .categories-clinops, .categories-edc,
+.categories-medcomms, .categories-promomats, .categories-regulatory,
+.categories-regulatoryOne, .categories-veeva-claims, .categories-quality,
+.categories-qualityOne, .categories-sitevault {
+  display: none;
+  visibility: hidden;
+}
+
+html[data-current="platform"] .categories-platform {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="medcomms"] .categories-medcomms {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="regulatory"] .categories-regulatory {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="regulatoryOne"] .categories-regulatoryOne {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="veeva-claims"] .categories-veeva-claims {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="quality"] .categories-quality {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="qualityOne"] .categories-qualityOne {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="edc"] .categories-edc {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="clinops"] .categories-clinops {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="promomats"] .categories-promomats {
+  visibility: visible;
+  display: initial;
+}
+html[data-current="sitevault"] .categories-sitevault {
+  visibility: visible;
+  display: initial;
+}
+
+

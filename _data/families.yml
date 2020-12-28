@@ -12,7 +12,7 @@
   url: /regulatory
 - name: RegulatoryOne
   tag: app-family-regulatoryone
-  url: /regulatoryone
+  url: /regulatoryOne
 - name: SiteVault
   tag: app-family-sitevault
   url: /sitevault

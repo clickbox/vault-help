@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% assign platform_users = site.platform | where: 'audience', "user" %}
-{% for p in platform_users %}
+{% assign platform_users = site.platform | where: "audience","user" %}
+{% for article in platform_users | where: "audience","user" %}
 <h2>
-    {{ p.title }}
+    {{ article.title }}
 </h2>
 <div>
-    {{ p.content }}
+    {{ article.content }}
 </div>
 {% endfor %}
