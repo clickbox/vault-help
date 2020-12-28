@@ -1,8 +1,9 @@
 ---
 layout: page
 section: platform
+audience: admin
 ---
-## This is example text
+## ADMIN Test Example Page
 
 Content generated from markdown like this html table:
 There aren't any css styles on the this generated pages they look crazy.

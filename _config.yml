@@ -46,7 +46,7 @@ compress_html:
 collections:
   platform:
     output: true
-    permalink: /_platform/user/:name
+    permalink: /platform/:name
 
 # set some common post defaults
 defaults:

@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-
-{% for p in site.platform %}
+{% assign platform_users = site.platform | where: 'audience', "user" %}
+{% for p in platform_users %}
 <h2>
     {{ p.title }}
 </h2>
