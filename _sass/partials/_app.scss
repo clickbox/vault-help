@@ -106,15 +106,6 @@ main {
   }
 }
 
-// reset breaking fallbacks (e.g. widths) if CSS Grid is supported
-// float, inline-block, table properties are already ignored by CSS Grid
-//@supports (display: grid) {
-//  main {
-//    width: auto;
-//    max-width: none;
-//  }
-//}
-
 html[data-current="blog"] main > section {
   ul li {
     padding: 2rem 0;
@@ -135,34 +126,6 @@ nav[aria-label="Adjacent Posts"] {
       &:nth-child(2) {
         text-align: right;
       }
-    }
-  }
-}
-
-//html[data-current="contact"] main > form {
-//  display: grid;
-//  label {
-//    display: none;
-//  }
-//  input,
-//  textarea {
-//    width: 100%;
-//    padding: 1rem;
-//    margin-bottom: 2rem;
-//  }
-//  button {
-//    width: 100%;
-//  }
-//}
-
-// reset CSS Grid fallbacks when they aren't required
-@supports (display: grid) {
-  html[data-current="contact"] main > form {
-    input,
-    textarea,
-    button {
-      width: auto;
-      max-width: none;
     }
   }
 }
@@ -222,7 +185,6 @@ nav .dropdown {
   justify-content: space-between;
 }
 footer {
-  position: absolute;
   background-color: $grey-bg-color;
   height: 200px;
   bottom: 0;
