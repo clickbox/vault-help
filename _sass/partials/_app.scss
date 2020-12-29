@@ -110,9 +110,6 @@ nav[aria-label="Adjacent Posts"] {
   }
 }
 
-footer {
-  background-color: $grey-bg-color;
-}
 
 .home-search {
   width: 60%;
@@ -164,11 +161,21 @@ nav .dropdown {
   display: flex;
   justify-content: space-between;
 }
+
+footer a:link, footer a:visited,
+footer a:hover, footer a:active, footer a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 footer {
-  background-color: $grey-bg-color;
+  background-color: $hairline-color;
   height: 200px;
   bottom: 0;
+  font-size: 16px;
   width: 100%;
+  padding: 5%;
 }
 
 .categories a:link {
