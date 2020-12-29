@@ -1,25 +1,7 @@
-// Main Styles
-
-// See the other SASS partials for typography, variables etc.
-// CSS Grid is used for the layout with fallbacks for less capable browsers
-// declared beforehand, and a @supports feature query to reset fallbacks when
-// necessary. https://rachelandrew.co.uk/css/cheatsheets/grid-fallbacks
-
-// the body element is our primary layout grid
 body {
   height: 100vh;
   position: relative;
-  //display: grid;
-  //grid-template-rows: auto 1fr auto;
-  //grid-template-columns:
-  //  [full-start] minmax(0, 1fr)
-  //  [main-start] minmax(0, 90rem) [main-end]
-  //  minmax(1rem, 1fr) [full-end];
 }
-
-//body > * {
-//  grid-column: full;
-//}
 
 header {
   display: flex;
@@ -29,9 +11,6 @@ header {
   background-color: $grey-bg-color;
 }
 
-
-
-// logo, is a grid item
 header h1::before {
   background-image: url("/assets/img/mainLogo.png");
   background-size: 100% 100%;
@@ -97,6 +76,7 @@ header > nav {
 
 main {
   width: 90%;
+  min-height: 65vh;
   margin-right: auto;
   margin-left: auto;
   padding-top: 3rem;
@@ -191,19 +171,8 @@ footer {
   width: 100%;
 }
 
-.categories a:visited {
-
-}
-.categories a:active {
-
-}
-
 .categories a:link {
   text-decoration: none;
-}
-
-.categories a:hover {
-
 }
 
 #app-family-cards {
