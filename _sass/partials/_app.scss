@@ -8,17 +8,18 @@
 // the body element is our primary layout grid
 body {
   height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns:
-    [full-start] minmax(0, 1fr)
-    [main-start] minmax(0, 90rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
+  position: relative;
+  //display: grid;
+  //grid-template-rows: auto 1fr auto;
+  //grid-template-columns:
+  //  [full-start] minmax(0, 1fr)
+  //  [main-start] minmax(0, 90rem) [main-end]
+  //  minmax(1rem, 1fr) [full-end];
 }
 
-body > * {
-  grid-column: full;
-}
+//body > * {
+//  grid-column: full;
+//}
 
 header {
   display: flex;
@@ -95,13 +96,10 @@ header > nav {
 }
 
 main {
-  width: 100%;
-  max-width: 80%;
+  width: 90%;
   margin-right: auto;
   margin-left: auto;
-  grid-column: main;
-  display: grid;
-  padding-top: 4rem;
+  padding-top: 3rem;
   padding-bottom: 3rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
@@ -110,12 +108,12 @@ main {
 
 // reset breaking fallbacks (e.g. widths) if CSS Grid is supported
 // float, inline-block, table properties are already ignored by CSS Grid
-@supports (display: grid) {
-  main {
-    width: auto;
-    max-width: none;
-  }
-}
+//@supports (display: grid) {
+//  main {
+//    width: auto;
+//    max-width: none;
+//  }
+//}
 
 html[data-current="blog"] main > section {
   ul li {
@@ -141,21 +139,21 @@ nav[aria-label="Adjacent Posts"] {
   }
 }
 
-html[data-current="contact"] main > form {
-  display: grid;
-  label {
-    display: none;
-  }
-  input,
-  textarea {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 2rem;
-  }
-  button {
-    width: 100%;
-  }
-}
+//html[data-current="contact"] main > form {
+//  display: grid;
+//  label {
+//    display: none;
+//  }
+//  input,
+//  textarea {
+//    width: 100%;
+//    padding: 1rem;
+//    margin-bottom: 2rem;
+//  }
+//  button {
+//    width: 100%;
+//  }
+//}
 
 // reset CSS Grid fallbacks when they aren't required
 @supports (display: grid) {
@@ -170,16 +168,7 @@ html[data-current="contact"] main > form {
 }
 
 footer {
-  grid-column: full;
-  display: grid;
-  grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
-    [main-start] minmax(0, 50rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
   background-color: $grey-bg-color;
-  > small {
-    grid-column: main;
-  }
 }
 
 .home-search {
@@ -232,16 +221,12 @@ nav .dropdown {
   display: flex;
   justify-content: space-between;
 }
-
-footer .categories-list {
-  display: initial;
-}
-footer .categories {
+footer {
+  position: absolute;
+  background-color: $grey-bg-color;
   height: 200px;
-  max-width: 100%;
-}
-.categories-link {
-
+  bottom: 0;
+  width: 100%;
 }
 
 .categories a:visited {
