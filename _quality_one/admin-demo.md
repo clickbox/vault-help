@@ -1,6 +1,5 @@
 ---
 layout: page
-section: QualityOne
 audience: admin
 ---
 ## ADMIN Test Example Page

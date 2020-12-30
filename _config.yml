@@ -89,6 +89,51 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
+    scope:
+      path: "_platform"
+    values:
+      section: "Platform"
+    scope:
+      path: "_promomats"
+    values:
+      section: "PromoMats"
+    scope:
+      path: "_clinops"
+    values:
+      section: "ClinOps"
+    scope:
+      path: "_edc"
+    values:
+      section: "EDC"
+    scope:
+      path: "_medcomms"
+    values:
+      section: "MedComms"
+    scope:
+      path: "_quality"
+    values:
+      section: "Quality"
+    scope:
+      path: "_quality_one"
+    values:
+      section: "QualityOne"
+    scope:
+      path: "_regulatory"
+    values:
+      section: "Regulatory"
+    scope:
+      path: "_regulatory_one"
+    values:
+      section: "RegulatoryOne"
+    scope:
+      path: "_sitevault"
+    values:
+      section: "SiteVault"
+    scope:
+      path: "_veeva_claims"
+    values:
+      section: "Veeva Claims"
+
 
 # Build settings
 markdown: kramdown

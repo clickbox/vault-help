@@ -1,6 +1,5 @@
 ---
 layout: page
-section: clinops
 audience: admin
 ---
 ## ADMIN Test Example Page

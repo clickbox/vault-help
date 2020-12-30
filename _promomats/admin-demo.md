@@ -1,6 +1,5 @@
 ---
 layout: page
-section: PromoMats
 audience: admin
 ---
 ## ADMIN Test Example Page

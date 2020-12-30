@@ -1,6 +1,5 @@
 ---
 layout: page
-section: Regulatory
 audience: admin
 ---
 ## ADMIN Test Example Page

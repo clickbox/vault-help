@@ -1,6 +1,5 @@
 ---
 layout: page
-section: PromoMats
 audience: user
 ---
 ## User Test Example Page

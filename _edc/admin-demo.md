@@ -1,6 +1,5 @@
 ---
 layout: page
-section: EDC 
 audience: admin
 ---
 ## ADMIN Test Example Page

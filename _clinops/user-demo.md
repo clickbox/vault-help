@@ -1,6 +1,5 @@
 ---
 layout: page
-section: clinops
 audience: user
 ---
 ## User Test Example Page

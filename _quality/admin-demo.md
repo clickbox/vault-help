@@ -1,6 +1,5 @@
 ---
 layout: page
-section: Quality
 audience: admin
 ---
 ## ADMIN Test Example Page

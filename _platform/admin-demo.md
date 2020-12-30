@@ -1,6 +1,5 @@
 ---
 layout: page
-section: Platform
 audience: admin
 ---
 ## ADMIN Test Example Page

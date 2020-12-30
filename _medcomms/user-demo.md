@@ -1,6 +1,5 @@
 ---
 layout: page
-section: MedComms
 audience: user
 ---
 ## User Test Example Page
