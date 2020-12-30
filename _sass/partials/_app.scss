@@ -162,6 +162,17 @@ header .dropdown-item {
 .categories-list {
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
+  height: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.categories-list a:link,
+.categories-list a:visited,
+.categories-list a:hover,
+.categories-list a:active {
+  color: $grey-bg-color;
+  text-decoration: none;
 }
 
 footer a:link, footer a:visited,
@@ -197,7 +208,7 @@ footer {
 }
 
 html[data-current="Platform"] .categories-platform,
-html[data-current="home"] .categories-platform {
+html[data-current="Vault"] .categories-platform {
   visibility: visible;
   display: initial;
 }

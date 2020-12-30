@@ -58,7 +58,7 @@ h2 {
   width: 600px;
   margin:0 auto;
   text-align: center;
-  color: #F8972B;
+  color: #010101;
 }
 
 h3 {
@@ -81,7 +81,6 @@ small {
 
 a,
 a:visited {
-  border-bottom: 0.05em solid $link-color;
 	text-decoration: none;
 	color: $link-color;
 }
@@ -90,7 +89,6 @@ a:hover,
 a:active {
   text-decoration: none;
   border: 0;
-  color: $link-hover-color;
 }
 
 header > h1 {
