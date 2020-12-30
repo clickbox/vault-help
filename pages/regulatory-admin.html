@@ -1,0 +1,17 @@
+---
+layout: page
+section: regulatory
+permalink: /regulatory/admin/
+---
+
+<h1>Regulatory Admin Resources</h1>
+<ul>
+    {% assign regulatory_admin_article = site.regulatory | where: "audience", "admin" %}
+    {% for article in regulatory_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+---
+layout: page
+section: quality
+permalink: /quality/users/
+---
+
+<h1>Quality User Resources</h1>
+<ul>
+    {% assign quality_user_article = site.quality | where: "audience", "user" %}
+    {% for article in quality_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

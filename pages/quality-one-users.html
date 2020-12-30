@@ -1,0 +1,17 @@
+---
+layout: page
+section: qualityOne
+permalink: /qualityOne/users/
+---
+
+<h1>QualityOne User Resources</h1>
+<ul>
+    {% assign quality_one_user_article = site.quality_one | where: "audience", "user" %}
+    {% for article in quality_one_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

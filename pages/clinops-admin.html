@@ -1,0 +1,17 @@
+---
+layout: page
+section: clinops
+permalink: /clinops/admin/
+---
+
+<h1>Clinical Operations Admin Resources</h1>
+<ul>
+    {% assign clinops_admin_article = site.clinops | where: "audience", "admin" %}
+    {% for article in clinops_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

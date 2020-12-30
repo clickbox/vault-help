@@ -1,0 +1,17 @@
+---
+layout: page
+section: quality
+permalink: /quality/admin/
+---
+
+<h1>Quality Admin Resources</h1>
+<ul>
+    {% assign quality_admin_article = site.quality | where: "audience", "admin" %}
+    {% for article in quality_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

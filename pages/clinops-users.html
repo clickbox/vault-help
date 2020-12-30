@@ -1,0 +1,17 @@
+---
+layout: page
+section: clinops
+permalink: /clinops/users/
+---
+
+<h1>Clinical Operations Users Resources</h1>
+<ul>
+    {% assign clinops_user_article = site.clinops | where: "audience", "user" %}
+    {% for article in clinops_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

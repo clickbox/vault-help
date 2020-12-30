@@ -1,0 +1,17 @@
+---
+layout: page
+section: qualityOne
+permalink: /qualityOne/admin/
+---
+
+<h1>QualityOne Admin Resources</h1>
+<ul>
+    {% assign quality_one_admin_article = site.quality_one | where: "audience", "admin" %}
+    {% for article in quality_one_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site if applicable, e.g. /blog
 url: "https://vault-help.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 # Permalink format (/blog/ is ignored for pages)
-permalink: /blog/:title
+permalink: /releases/:title
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -48,6 +48,37 @@ collections:
     output: true
     permalink: /platform/:name
     sort_by: audience
+  clinops:
+    output: true
+    permalink: /clinops/:name
+  edc:
+    output: true
+    permalink: /edc/:name
+  medcomms:
+    output: true
+    permalink: /medcomms/:name
+  quality:
+    output: true
+    permalink: /quality/:name
+  quality_one:
+    output: true
+    permalink: /qualityOne/:name
+  promomats:
+    output: true
+    permalink: /promomats/:name
+  regulatory:
+    output: true
+    permalink: /regulatory/:name
+  regulatory_one:
+    output: true
+    permalink: /regulatoryOne/:name
+  veeva_claims:
+    output: true
+    permalink: /veeva-claims/:name
+  sitevault:
+    output: true
+    permalink: /sitevault/:name
+
 
 # set some common post defaults
 defaults:
