@@ -175,7 +175,7 @@ footer {
   bottom: 0;
   font-size: 16px;
   width: 100%;
-  padding: 5%;
+  padding: 20px;
 }
 
 .categories a:link {
@@ -194,7 +194,8 @@ footer {
   visibility: hidden;
 }
 
-html[data-current="platform"] .categories-platform {
+html[data-current="platform"] .categories-platform,
+html[data-current="home"] .categories-platform {
   visibility: visible;
   display: initial;
 }
