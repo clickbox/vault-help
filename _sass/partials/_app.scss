@@ -147,9 +147,11 @@ nav[aria-label="Adjacent Posts"] {
 }
 
 nav .dropdown {
-  margin-right: 30px;
+  margin-right: 40px;
 }
-
+header .dropdown-item {
+  font-size: 14px;
+}
 .categories {
   padding-top: 10px;
   height: 40px;
@@ -240,4 +242,36 @@ html[data-current="SiteVault"] .categories-sitevault {
   display: initial;
 }
 
+header #dropdownMenuLink {
+  font-size: 13px;
+}
+header #dropdownMenuLink {
+  color: white;
+}
 
+header a:link,
+header a:visited,
+header a:hover,
+header a:active {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+header img {
+  width: 100px;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+}
+
+.leftSide a:link,
+.leftSide a:visited,
+.leftSide a:hover,
+.leftSide a:active {
+  color: white;
+  text-decoration: none;
+  font-sizd: 22px
+}
