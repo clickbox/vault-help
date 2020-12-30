@@ -1,0 +1,17 @@
+---
+layout: page
+section: PromoMats
+permalink: /promomats/users/
+---
+
+<h1>PromoMats User Resources</h1>
+<ul>
+    {% assign promomats_user_article = site.promomats | where: "audience", "user" %}
+    {% for article in promomats_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

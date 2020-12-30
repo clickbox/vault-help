@@ -1,0 +1,17 @@
+---
+layout: page
+section: RegulatoryOne
+permalink: /regulatoryOne/users/
+---
+
+<h1>RegulatoryOne Users Resources</h1>
+<ul>
+    {% assign regulatory_one_user_article = site.regulatory_one | where: "audience", "user" %}
+    {% for article in regulatory_one_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

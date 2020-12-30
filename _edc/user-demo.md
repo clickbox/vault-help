@@ -1,6 +1,6 @@
 ---
 layout: page
-section: edc
+section: EDC
 audience: user
 ---
 ## User Test Example Page

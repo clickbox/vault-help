@@ -1,6 +1,6 @@
 ---
 layout: page
-section: regulatory
+section: Regulatory
 audience: user
 ---
 ## User Test Example Page

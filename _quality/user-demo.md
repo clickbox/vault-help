@@ -1,6 +1,6 @@
 ---
 layout: page
-section: quality
+section: Quality
 audience: user
 ---
 ## User Test Example Page

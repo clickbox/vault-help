@@ -1,0 +1,17 @@
+---
+layout: page
+section: MedComms
+permalink: /medcomms/users/
+---
+
+<h1>MedComms User Resources</h1>
+<ul>
+    {% assign medcomms_user_article = site.medcomms | where: "audience", "user" %}
+    {% for article in medcomms_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

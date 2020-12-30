@@ -1,0 +1,17 @@
+---
+layout: page
+section: SiteVault
+permalink: /sitevault/admin/
+---
+
+<h1>SiteVault Admin Resources</h1>
+<ul>
+    {% assign sitevault_admin_article = site.sitevault | where: "audience", "admin" %}
+    {% for article in sitevault_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

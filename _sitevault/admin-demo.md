@@ -1,6 +1,6 @@
 ---
 layout: page
-section: sitevault
+section: SiteVault
 audience: admin
 ---
 ## ADMIN Test Example Page

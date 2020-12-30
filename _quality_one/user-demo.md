@@ -1,6 +1,6 @@
 ---
 layout: page
-section: qualityOne
+section: QualityOne
 audience: user
 ---
 ## User Test Example Page

@@ -1,6 +1,6 @@
 ---
 layout: page
-section: sitevault
+section: SiteVault
 audience: user
 ---
 ## User Test Example Page

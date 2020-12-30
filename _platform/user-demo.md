@@ -1,6 +1,6 @@
 ---
 layout: page
-section: platform
+section: Platform
 audience: user
 ---
 ## User Test Example Page

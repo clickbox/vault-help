@@ -1,0 +1,17 @@
+---
+layout: page
+section: PromoMats
+permalink: /promomats/admin/
+---
+
+<h1>PromoMats Admin Resources</h1>
+<ul>
+    {% assign promomats_admin_article = site.promomats | where: "audience", "admin" %}
+    {% for article in promomats_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

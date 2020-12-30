@@ -1,6 +1,6 @@
 ---
 layout: page
-section: veeva-claims
+section: Veeva Claims
 audience: admin
 ---
 ## ADMIN Test Example Page

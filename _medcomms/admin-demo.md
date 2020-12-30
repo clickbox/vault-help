@@ -1,6 +1,6 @@
 ---
 layout: page
-section: platform
+section: MedComms
 audience: admin
 ---
 ## ADMIN Test Example Page

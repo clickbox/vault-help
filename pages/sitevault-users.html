@@ -1,0 +1,17 @@
+---
+layout: page
+section: SiteVault
+permalink: /sitevault/users/
+---
+
+<h1>SiteVault Users Resources</h1>
+<ul>
+    {% assign sitevault_user_article = site.sitevault | where: "audience", "user" %}
+    {% for article in sitevault_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

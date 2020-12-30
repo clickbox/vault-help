@@ -1,0 +1,17 @@
+---
+layout: page
+section: Veeva Claims
+permalink: /veeva-claims/users/
+---
+
+<h1>Veeva Claims Admin Resources</h1>
+<ul>
+    {% assign veeva_claims_user_article = site.veeva_claims | where: "audience", "user" %}
+    {% for article in veeva_claims_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

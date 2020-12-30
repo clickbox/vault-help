@@ -1,0 +1,17 @@
+---
+layout: page
+section: EDC
+permalink: /edc/users/
+---
+
+<h1>EDC Admin Resources</h1>
+<ul>
+    {% assign edc_user_article = site.edc | where: "audience", "user" %}
+    {% for article in edc_user_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

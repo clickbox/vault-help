@@ -1,0 +1,17 @@
+---
+layout: page
+section: MedComms
+permalink: /medcomms/admin/
+---
+
+<h1>MedComms Admin Resources</h1>
+<ul>
+    {% assign medcomms_admin_article = site.medcomms | where: "audience", "admin" %}
+    {% for article in medcomms_admin_article %}
+    <li>
+        <a href="{{ article.url }}">
+            {{ article.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
