@@ -94,56 +94,67 @@ defaults:
       path: "_platform"
     values:
       section: "Platform"
+      layout: "page"
   -
     scope:
       path: "_promomats"
     values:
       section: "PromoMats"
+      layout: "page"
   -
     scope:
       path: "_clinops"
     values:
       section: "ClinOps"
+      layout: "page"
   -
     scope:
       path: "_edc"
     values:
       section: "EDC"
+      layout: "page"
   -
     scope:
       path: "_medcomms"
     values:
       section: "MedComms"
+      layout: "page"
   -
     scope:
       path: "_quality"
     values:
       section: "Quality"
+      layout: "page"
   -
     scope:
       path: "_quality_one"
     values:
       section: "QualityOne"
+      layout: "page"
   -
     scope:
       path: "_regulatory"
     values:
       section: "Regulatory"
+      layout: "page"
   -
     scope:
       path: "_regulatory_one"
     values:
       section: "RegulatoryOne"
+      layout: "page"
   -
     scope:
       path: "_sitevault"
     values:
       section: "SiteVault"
+      layout: "page"
   -
     scope:
       path: "_veeva_claims"
     values:
       section: "Veeva Claims"
+      layout: "page"
 
 
 # Build settings

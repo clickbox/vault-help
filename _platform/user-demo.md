@@ -1,5 +1,4 @@
 ---
-layout: page
 audience: user
 ---
 ## User Test Example Page

@@ -21,8 +21,12 @@ body {
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   font-style: normal;
-	font-variant: normal;
+  font-variant: normal;
   font-size: 1.6rem; // this is equivalent to 16px
+}
+
+ul {
+  margin-bottom: 10px;
 }
 
 h1,h2,h3,h4,h5,h6,p,figure,time {
@@ -52,8 +56,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2 {
-  font-size: 3rem;
-  padding-top: 3rem;
+  font-size: 2.4rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
   font-weight: 600;
   width: 600px;
